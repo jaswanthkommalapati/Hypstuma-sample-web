@@ -1,0 +1,242 @@
+
+h2 {
+  font-size: 36px;
+  color: white;
+  padding: 0;
+}
+
+
+/*Created by Ryan Tarson Last update: 4.14.2016*/
+#hp-content-title-1,
+#hp-content-title-2 {
+  font-size: 36px;
+  color: white;
+  padding: 0;
+}
+.hp-widget-content {
+  overflow: hidden;
+  font-family: Walsheim-Black, 'Arial Black', sans-serif;
+}
+
+div#hp-split-button {
+  padding: 10px 0;
+}
+
+.hp-titling-title {
+  background-color: #005E9F;
+  width: 100%;
+  max-width: 100%;
+  color: white;
+  padding: 20px 0 20px 0;
+}
+
+#hp-title-big {
+  color: white;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.hp-widget-two-wrap {
+  min-height: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+}
+
+.hp-col-1 {
+  width: 50%;
+  overflow: hidden;
+}
+
+.hp-primary-col {
+  background-color: rgba(0, 108, 158, 1);
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  display: table;
+  padding: 60px;
+}
+
+.hp-dark-col {
+  width: 100%;
+  max-width: 100%;
+  display: table;
+  height: 100%;
+  background-color: #333;
+  padding: 60px;
+}
+
+.hp-left-half {
+  display: table-cell;
+  float: left;
+  width: 25%;
+}
+
+.hp-right-half {
+  display: table-cell;
+  float: right;
+  width: 25%;
+  padding-right: 10%;
+}
+
+.hp-image-wrapper img {
+  width: 100%;
+  height: auto;
+}
+
+.hp-right-content {
+  float: right;
+  margin-right: 10%;
+  width: 35%;
+  display: table-cell;
+}
+
+.hp-right-content ul li {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: white;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.46;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+.hp-right-content ul {
+  padding: 0 0 20px 15px;
+}
+
+.hp-left-content {
+  float: left;
+  margin-right: 5%;
+  width: 35%;
+  display: table-cell;
+}
+
+.hp-left-content ul li {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: white;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.46;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+.hp-left-content ul {
+  padding: 0 0 20px 15px;
+}
+
+.hp-split-button {
+  padding-top: 20px;
+  font-family: Walsheim-Bold, "Arial Black", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  display: table-cell;
+}
+
+a#hp-button-style {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  display: table;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 2px;
+  padding: 8px 20px;
+  border-color: white;
+}
+
+a#hp-button-style:hover,
+a#hp-button-style:focus {
+  background-color: white;
+  color: #333;
+}
+
+a#hp-button-style-primary {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333;
+  display: table;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 2px;
+  padding: 8px 20px;
+  border-color: #333;
+}
+
+a#hp-button-style-primary:hover,
+a#hp-button-style-primary:focus {
+  background-color: white;
+  color: #333;
+}
+
+
+/*Media Screen Size this is so a person viewing from a smartphone or any screen smaller that can't support the widths it will look good from any device. Very important to import this CSS below. Created by: Ryan Tarson*/
+
+@media screen and (max-width: 1300px) {
+  .hp-left-content {
+    float: left !important;
+  }
+  .hp-left-half {
+    position: absolute;
+    bottom: 5px;
+    left: 60%;
+    width: 15%;
+  }
+  .hp-right-half {
+    position: absolute;
+    float: none;
+    bottom: 5px;
+    width: 15%;
+    left: 60%;
+  }
+  .hp-dark-col {
+    position: relative;
+  }
+  .hp-primary-col {
+    position: relative;
+  }
+  .hp-right-content {
+    float: none;
+    width: 100%;
+  }
+  .hp-left-content {
+    float: none;
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .hp-left-half {
+    bottom: 50%;
+  }
+  .hp-right-half {
+    bottom: 50%
+  }
+  .hp-col-1 {
+    width: 100%;
+  }
+  .hp-widget-two-wrap {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .hp-right-content {
+    width: 75%;
+    float: left;
+  }
+  .hp-left-content {
+    width: 75%;
+    float: left;
+  }
+}

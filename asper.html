@@ -1,0 +1,383 @@
+<html>
+<head>
+<link rel="stylesheet" href="tablet.css">
+<style type="text/css"src="tablet.css">
+
+h2 {
+  font-size: 36px;
+  color: white;
+  padding: 0;
+}
+
+
+/*Created by Ryan Tarson Last update: 4.14.2016*/
+#hp-content-title-1,
+#hp-content-title-2 {
+  font-size: 36px;
+  color: white;
+  padding: 0;
+}
+.hp-widget-content {
+  overflow: hidden;
+  font-family: Walsheim-Black, 'Arial Black', sans-serif;
+}
+
+div#hp-split-button {
+  padding: 10px 0;
+}
+
+.hp-titling-title {
+  background-color: #005E9F;
+  width: 100%;
+  max-width: 100%;
+  color: white;
+  padding: 20px 0 20px 0;
+}
+
+#hp-title-big {
+  color: white;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.hp-widget-two-wrap {
+  min-height: none;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex;
+}
+
+.hp-col-1 {
+  width: 50%;
+  overflow: hidden;
+}
+
+.hp-primary-col {
+  background-color: rgba(0, 108, 158, 1);
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  display: table;
+  padding: 60px;
+}
+
+.hp-dark-col {
+  width: 100%;
+  max-width: 100%;
+  display: table;
+  height: 100%;
+  background-color: #333;
+  padding: 60px;
+}
+
+.hp-left-half {
+  display: table-cell;
+  float: left;
+  width: 25%;
+}
+
+.hp-right-half {
+  display: table-cell;
+  float: right;
+  width: 25%;
+  padding-right: 10%;
+}
+
+.hp-image-wrapper img {
+  width: 100%;
+  height: auto;
+}
+
+.hp-right-content {
+  float: right;
+  margin-right: 10%;
+  width: 35%;
+  display: table-cell;
+}
+
+.hp-right-content ul li {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: white;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.46;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+.hp-right-content ul {
+  padding: 0 0 20px 15px;
+}
+
+.hp-left-content {
+  float: left;
+  margin-right: 5%;
+  width: 35%;
+  display: table-cell;
+}
+
+.hp-left-content ul li {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  color: white;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.46;
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
+
+.hp-left-content ul {
+  padding: 0 0 20px 15px;
+}
+
+.hp-split-button {
+  padding-top: 20px;
+  font-family: Walsheim-Bold, "Arial Black", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  display: table-cell;
+}
+
+a#hp-button-style {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: white;
+  display: table;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 2px;
+  padding: 8px 20px;
+  border-color: white;
+}
+
+a#hp-button-style:hover,
+a#hp-button-style:focus {
+  background-color: white;
+  color: #333;
+}
+
+a#hp-button-style-primary {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #333;
+  display: table;
+  text-decoration: none;
+  border-style: solid;
+  border-width: 2px;
+  padding: 8px 20px;
+  border-color: #333;
+}
+
+a#hp-button-style-primary:hover,
+a#hp-button-style-primary:focus {
+  background-color: white;
+  color: #333;
+}
+
+
+/*Media Screen Size this is so a person viewing from a smartphone or any screen smaller that can't support the widths it will look good from any device. Very important to import this CSS below. Created by: Ryan Tarson*/
+
+@media screen and (max-width: 1300px) {
+  .hp-left-content {
+    float: left !important;
+  }
+  .hp-left-half {
+    position: absolute;
+    bottom: 5px;
+    left: 60%;
+    width: 15%;
+  }
+  .hp-right-half {
+    position: absolute;
+    float: none;
+    bottom: 5px;
+    width: 15%;
+    left: 60%;
+  }
+  .hp-dark-col {
+    position: relative;
+  }
+  .hp-primary-col {
+    position: relative;
+  }
+  .hp-right-content {
+    float: none;
+    width: 100%;
+  }
+  .hp-left-content {
+    float: none;
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  .hp-left-half {
+    bottom: 50%;
+  }
+  .hp-right-half {
+    bottom: 50%
+  }
+  .hp-col-1 {
+    width: 100%;
+  }
+  .hp-widget-two-wrap {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 355px) {
+  .hp-right-content {
+    width: 75%;
+    float: left;
+  }
+  .hp-left-content {
+    width: 75%;
+    float: left;
+  }
+}
+</style>
+</head>
+
+
+<body>
+<script type="text/javascript"src="mnbv.js">
+/*Created by Ryan Tarson, Last Update: 4.14.2016 (final)
+This is a smart Widget it will reposition elements based on things you type or enter. The Code below will adjust the elements hieghts and widths based on the brothers widget so it stays the exactly the same.
+This case their will be no need to adjust padding, height, margin etc..*/
+console.log("Smart Widget by Ryan Tarson")
+var Widget, List, Title = null;
+Widget = document.getElementById('hp-widget-two-wrap-main');
+var Col1 = document.getElementById('col-hp-widget-1');
+var Col2 = document.getElementById('col-hp-widget-2');
+var sTitle1 = document.getElementById('hp-content-title-1');
+var sTitle2 = document.getElementById('hp-content-title-2');
+var sList1 = document.getElementById('hp-content-list-1');
+var sList2 = document.getElementById('hp-content-list-2');
+var cWindow = window.innerWidth;
+window.addEventListener("resize", function() {
+  //currently broke. Does not set back after window expanded
+  //console.log(cWindow + " the Current height " + window.innerWidth);
+  if (cWindow > window.innerWidth) {
+    if (sTitle1.clientHeight > sTitle2.clientHeight) {
+      sTitle2.style.height = sTitle1.clientHeight + 'px';
+    } else {
+      sTitle1.style.height = sTitle2.clientHeight + 'px';
+      //console.log(sTitle1.style.height)
+    }
+  } else {
+    if (Title == true) {
+      sTitle2.style.height = sTitle1.clientHeight + 'px';
+      //console.log("Setting back Title2: " + sTitle2);
+    } else {
+      sTitle1.style.height = sTitle2.clientHeight + 'px';
+    }
+    if (List == true) {
+      sList1.style.height = sList2.clientHeight + 'px';
+      sList1.style.padding = 0 + 'px';
+    } else {
+      sList2.style.height = sList1.clientHeight + 'px';
+      sList2.style.padding = 0 + 'px';
+    }
+    //geting window Height
+    cWindow = window.innerWidth;
+    Col1 = Widget.clientHeight + 'px';
+  }
+});
+window.onload = function() {
+  //console.log("The WidgetTitle Height: " + sTitle1.clientHeight + " and " + (sTitle2.clientHeight));
+
+  if (sList1.clientHeight > sList2.clientHeight) {
+    List = true;
+    sList2.style.height = sList1.offsetHeight + 'px';
+    sList2.style.padding = 0 + 'px';
+    //console.log("The List2 height was set: " + style2.offsettHeight);
+  } else {
+    List = false;
+    sList1.style.height = sList2.clientHeight + 'px';
+    sList1.style.padding = 0 + 'px';
+    //console.log("The List1 height was set: " + style1.clientHeight)
+  }
+  if (sTitle1.clientHeight > sTitle2.clientHeight) {
+    sTitle2.style.height = sTitle1.clientHeight + 'px';
+    Title = true;
+  } else {
+    sTitle1.style.height = sTitle2.clientHeight + 'px';
+    //console.log(sTitle1.style.height)
+    Title = false;
+  }
+  Col1 = Widget.clientHeight + 'px';
+  Col2 = Widget.clientHeight + 'px';
+
+};
+</script>
+
+<body style="margin: 0">
+  <div class="hp-widget-content">
+    <div class="hp-titling-title">
+      <h2 id="hp-title-big">
+    EDUCATIONAL MART
+  </h2>
+    </div>
+    <div class="hp-widget-two-wrap" id="hp-widget-two-wrap-main" style="">
+      <div class="hp-col-1" id="col-hp-widget-1">
+        <div class="hp-dark-col">
+          <div class="hp-accessory">
+          </div>
+          <div class="hp-left-half hp-image-wrapper img">
+            <img src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-11/512/Application-icon.png">
+          </div>
+          <div class="hp-right-content">
+            <h2 id="hp-content-title-1" style="">No Skills? Good.</h2>
+            <!--Depending on you site you may have to tweak below-->
+            <ul id="hp-content-list-1">
+              <li>we are there to guide you</li>
+              <li>we are there to empower you</li>
+              <li>we are there to make you skilled !</li>
+              <li> we provide you assistance</li>
+            </ul>
+
+            <div id="hp-split-button">
+              <a id="hp-button-style" href="educational mart app.html">
+                <div class="">Learn More</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div> 
+      <div class="hp-col-1" id="col-hp-widget-2">
+        <div class="hp-primary-col" style="">
+          <div class="hp-accessory">
+          </div>
+          <div class="hp-left-content">
+            <h2 id="hp-content-title-2" style=""> WORK WITH TEAM E-MART </h2>
+            <!--Depending on you site you may have to tweak below-->
+            <ul id="hp-content-list-2">
+              <li>we provide youu internships </li>
+              <li>work on live projects with us....</li>
+              <li>become a part of our technical assistance </li>
+              <li> collaborate with industrial experts </li>
+            </ul>
+
+            <div id="hp-split-button">
+              <a id="hp-button-style-primary" href="http://www.educationalmart.in">
+                <div class="">VISIT US</div>
+              </a>
+            </div>
+          </div>
+          <div class="hp-right-half hp-image-wrapper img">
+            <img src="http://icons.iconarchive.com/icons/custom-icon-design/flatastic-11/512/Webpage-icon.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
